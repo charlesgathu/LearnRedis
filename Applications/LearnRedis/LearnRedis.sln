@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListenerApp", "ListenerApp\ListenerApp.csproj", "{308ECBB3-B0A1-48EE-96FB-9F9158917960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListenerApp", "ListenerApp\ListenerApp.csproj", "{308ECBB3-B0A1-48EE-96FB-9F9158917960}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2B5C7166-A38F-473C-99A0-52A52E82AB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregator", "Aggregator\Aggregator.csproj", "{4CC1D57F-AEAF-4C37-B439-B583CB42A44A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{308ECBB3-B0A1-48EE-96FB-9F9158917960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{308ECBB3-B0A1-48EE-96FB-9F9158917960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{308ECBB3-B0A1-48EE-96FB-9F9158917960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B5C7166-A38F-473C-99A0-52A52E82AB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B5C7166-A38F-473C-99A0-52A52E82AB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B5C7166-A38F-473C-99A0-52A52E82AB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B5C7166-A38F-473C-99A0-52A52E82AB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC1D57F-AEAF-4C37-B439-B583CB42A44A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC1D57F-AEAF-4C37-B439-B583CB42A44A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC1D57F-AEAF-4C37-B439-B583CB42A44A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC1D57F-AEAF-4C37-B439-B583CB42A44A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

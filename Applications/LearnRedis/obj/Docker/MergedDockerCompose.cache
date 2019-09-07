@@ -1,0 +1,12 @@
+services:
+  aggregator:
+    build:
+      context: D:\Projects\GitHub\LearnRedis\Applications\LearnRedis
+      dockerfile: Aggregator/Dockerfile
+    image: aggregator
+  listenerapp:
+    build:
+      context: D:\Projects\GitHub\LearnRedis\Applications\LearnRedis
+      dockerfile: ListenerApp/Dockerfile
+    image: listenerapp
+version: '3.4'

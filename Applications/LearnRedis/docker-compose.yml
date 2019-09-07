@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  listenerapp:
+    image: ${DOCKER_REGISTRY-}listenerapp
+    build:
+      context: .
+      dockerfile: ListenerApp/Dockerfile
+
+  aggregator:
+    image: ${DOCKER_REGISTRY-}aggregator
+    build:
+      context: .
+      dockerfile: Aggregator/Dockerfile
+

@@ -1,0 +1,8 @@
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\bin\Debug\netcoreapp2.2\ListenerApp.deps.json
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\bin\Debug\netcoreapp2.2\ListenerApp.runtimeconfig.json
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\bin\Debug\netcoreapp2.2\ListenerApp.runtimeconfig.dev.json
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\bin\Debug\netcoreapp2.2\ListenerApp.dll
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\obj\Debug\netcoreapp2.2\ListenerApp.csprojAssemblyReference.cache
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\obj\Debug\netcoreapp2.2\ListenerApp.csproj.CoreCompileInputs.cache
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\obj\Debug\netcoreapp2.2\ListenerApp.AssemblyInfoInputs.cache
+D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp\obj\Debug\netcoreapp2.2\ListenerApp.AssemblyInfo.cs

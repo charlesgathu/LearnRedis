@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Aggregator": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}

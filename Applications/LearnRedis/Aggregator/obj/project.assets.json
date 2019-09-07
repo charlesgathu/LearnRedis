@@ -764,11 +764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\ListenerApp.csproj",
-      "projectName": "ListenerApp",
-      "projectPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\ListenerApp.csproj",
+      "projectUniqueName": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\Aggregator\\Aggregator.csproj",
+      "projectName": "Aggregator",
+      "projectPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\Aggregator\\Aggregator.csproj",
       "packagesPath": "C:\\Users\\Charlie\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\obj\\",
+      "outputPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\Aggregator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

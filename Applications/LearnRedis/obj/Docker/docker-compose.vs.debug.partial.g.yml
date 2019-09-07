@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+  aggregator:
+    image: aggregator:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "Aggregator"
+    #environment:
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_aggregator$
+    volumes:
+      - D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\Aggregator:/app
+      - C:\Users\Charlie\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_aggregator$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_aggregator$ \"bin/Debug/netcoreapp2.2/Aggregator.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+  listenerapp:
+    image: listenerapp:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "ListenerApp"
+    #environment:
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_listenerapp$
+    volumes:
+      - D:\Projects\GitHub\LearnRedis\Applications\LearnRedis\ListenerApp:/app
+      - C:\Users\Charlie\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_listenerapp$
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_listenerapp$ \"bin/Debug/netcoreapp2.2/ListenerApp.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
