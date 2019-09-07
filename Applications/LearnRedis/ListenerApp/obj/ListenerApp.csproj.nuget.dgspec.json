@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\LearnRedis\\LearnRedis.csproj": {}
+    "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\ListenerApp.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\LearnRedis\\LearnRedis.csproj": {
+    "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\ListenerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\LearnRedis\\LearnRedis.csproj",
-        "projectName": "LearnRedis",
-        "projectPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\LearnRedis\\LearnRedis.csproj",
+        "projectUniqueName": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\ListenerApp.csproj",
+        "projectName": "ListenerApp",
+        "projectPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\ListenerApp.csproj",
         "packagesPath": "C:\\Users\\Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\LearnRedis\\obj\\",
+        "outputPath": "D:\\Projects\\GitHub\\LearnRedis\\Applications\\LearnRedis\\ListenerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

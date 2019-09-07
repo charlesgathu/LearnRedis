@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LearnRedis
+namespace ListenerApp
 {
     class Program
     {
